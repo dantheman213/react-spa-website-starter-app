@@ -20,6 +20,46 @@ nav h1 a:hover {
     text-decoration: none;
 }
 
+/* features */
+
+.feature-box {
+    width: 80%;
+    height: 300px;
+    border-radius: 21px 21px 0 0;
+}
+
+.feature-item {
+    position: absolute;
+    right: 10%;
+    bottom: -30%;
+    width: 300px;
+    height: 540px;
+    background-color: #333;
+    border-radius: 21px;
+    -webkit-transform: rotate(30deg);
+    transform: rotate(30deg);
+}
+
+.feature-item::before {
+    position: absolute;
+    top: 10%;
+    right: 10px;
+    bottom: 10%;
+    left: 10px;
+    content: "";
+    background-color: rgba(255, 255, 255, .1);
+    border-radius: 5px;
+}
+
+.feature-item-2 {
+    top: -25%;
+    right: auto;
+    bottom: 0;
+    left: 5%;
+    background-color: #e5e5e5;
+}
+
+
 /* CUSTOMIZE THE CAROUSEL
 -------------------------------------------------- */
 
@@ -77,6 +117,9 @@ nav h1 a:hover {
     line-height: 1;
     letter-spacing: -.05rem;
 }
+
+
+
 
 
 /* RESPONSIVE CSS
