@@ -1,0 +1,15 @@
+/* Navigation */
+
+nav {
+  h1 {
+    a {
+      font-size: 26px;
+      text-decoration: none;
+      color: inherit;
+
+      :hover {
+        text-decoration: none;
+      }
+    }
+  }
+}
