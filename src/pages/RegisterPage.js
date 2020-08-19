@@ -5,9 +5,6 @@ export default function RegisterPage() {
     return (
         <div className="container">
             <div className="py-5 text-center">
-                <img className="d-block mx-auto mb-4"
-                     src="https://getbootstrap.com/docs/4.0/assets/brand/bootstrap-solid.svg" alt="" width="72"
-                     height="72" />
                     <h2>Sign up</h2>
                     <p className="lead">Below is an example form built entirely with Bootstrap's form controls. Each
                         required form group has a validation state that can be triggered by attempting to submit the
@@ -104,9 +101,7 @@ export default function RegisterPage() {
                         </div>
 
                         <hr className="mb-4" />
-                        <button className="btn btn-primary btn-lg btn-block" type="submit">Continue to
-                            checkout
-                        </button>
+                        <button className="btn btn-primary btn-lg btn-block" type="submit">Sign up</button>
                     </form>
                 </div>
             </div>
