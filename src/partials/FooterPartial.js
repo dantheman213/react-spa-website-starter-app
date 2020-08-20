@@ -29,7 +29,7 @@ export default function FooterPartial() {
                         </ul>
                     </div>
                     <div className="col-12 col-md">
-                        <img className="mb-2" src="https://getbootstrap.com/docs/4.5/assets/brand/bootstrap-solid.svg" alt="" width="24"
+                        <img className="mb-2" src="/images/logo.svg" alt="" width="24"
                              height="24" />
                         <small className="d-block mb-3 text-muted">Copyright © 2020 Your Company, LLC. All Rights Reserved.</small>
                     </div>
