@@ -36,4 +36,6 @@ Includes a navigation menu and sample pages.
 
 ## References
 
-https://create-react-app.dev/docs/getting-started
+* https://create-react-app.dev/docs/getting-started
+
+* https://getbootstrap.com/docs/4.0/layout/overview/

@@ -3,7 +3,7 @@ import {Link} from 'react-router-dom'
 
 export default function HomePage() {
     return (
-        <div>
+        <main>
             <div id="myCarousel" className="carousel slide" data-ride="carousel">
                 <ol className="carousel-indicators">
                     <li data-target="#myCarousel" data-slide-to="0" className=""></li>
@@ -167,6 +167,6 @@ export default function HomePage() {
                         </div>
                     <hr className="featurette-divider" />
             </div>
-        </div>
+        </main>
     )
 }

@@ -3,7 +3,7 @@ import { Link } from 'react-router-dom'
 
 export default function FeaturesPage() {
     return (
-       <div>
+        <main>
            <div className="jumbotron">
                <div className="container">
                    <h1 className="display-3">Features</h1>
@@ -39,6 +39,6 @@ export default function FeaturesPage() {
                </div>
                <hr />
            </div>
-        </div>
+        </main>
     )
 }

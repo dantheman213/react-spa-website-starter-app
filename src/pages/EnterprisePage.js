@@ -3,7 +3,7 @@ import { Link } from 'react-router-dom'
 
 export default function EnterprisePage() {
     return (
-        <div>
+        <main>
             <div className="jumbotron">
                 <div className="container">
                     <h1 className="display-3">Enterprise Solutions</h1>
@@ -39,6 +39,6 @@ export default function EnterprisePage() {
                 </div>
                 <hr />
             </div>
-        </div>
+        </main>
     )
 }

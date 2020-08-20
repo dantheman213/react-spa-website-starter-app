@@ -1,14 +1,19 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
 
-export default function HomePage() {
+export default function PricingPage() {
     return (
-        <div className="spacer">
+        <main>
             <div className="pricing-header px-3 py-3 pt-md-5 pb-md-4 mx-auto text-center">
-                <h1 className="display-4">Pricing</h1>
-                <p className="lead">Quickly build an effective pricing table for your potential customers with this
-                    Bootstrap example. It’s built with default Bootstrap components and utilities with little
-                    customization.</p>
+                <div className="container">
+                    <div className="row justify-content-center">
+                        <div className="col-12 col-md-10 col-lg-8 text-center">
+                            <h1 className="display-4">Pricing</h1>
+                            <p className="lead text-muted mb-7 mb-md-9">Quickly build a strong presence and effective pricing table for your potential customers with this
+                                Bootstrap 4 example.</p>
+                        </div>
+                    </div>
+                </div>
             </div>
             <div className="container">
                 <div className="card-deck mb-3 text-center">
@@ -59,6 +64,6 @@ export default function HomePage() {
                     </div>
                 </div>
             </div>
-        </div>
+        </main>
     )
 }
