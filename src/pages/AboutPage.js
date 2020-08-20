@@ -3,8 +3,8 @@ import { Link } from 'react-router-dom'
 
 export default function AboutPage() {
     return (
-        <div className="container">
-            <div className="row mt-15">
+        <div className="container spacer">
+            <div className="row">
                 <div className="col">
                     <h2>About</h2>
 
